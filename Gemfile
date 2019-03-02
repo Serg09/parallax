@@ -39,7 +39,13 @@ gem 'sdoc', '>= 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 #
 #
-gem 'bootstrap', '~> 4.0'
+gem 'bootstrap', '~> 4.3.1'
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 # gem'pg'
 
 group :development, :test do
