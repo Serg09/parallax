@@ -49,6 +49,7 @@ gem 'mini_racer', '~> 0.2.4'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # gem'pg'
+gem 'execjs', '~> 2.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
