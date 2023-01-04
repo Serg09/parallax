@@ -64,7 +64,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # gem 'mini_racer', '~> 0.2.4'
 gem 'mini_racer', '~> 0.3.1'
 # gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails'
 
 # gem'pg'
 gem 'execjs', '~> 2.7'
